@@ -1,18 +1,18 @@
 # docmuxres
-docker + tmux + tmux-resurect
+docker + tmux + tmux-resurect<br>
 
-Example commands :
+Example commands :<br>
 
-run tmux
-docker run -it --name tmux gologic/tmuxres tmux
+run tmux<br>
+docker run -it --name tmux gologic/tmuxres tmux<br>
 
 run tmux with tmux-resurect files persisted on host current user home folder<br>
-docker run -it --name tmux -v ~/.tmux/resurrect:/root/.tmux/resurrect gologic/tmuxres tmux
+docker run -it --name tmux -v ~/.tmux/resurrect:/root/.tmux/resurrect gologic/tmuxres tmux<br>
 
-You can use Ctrl-p,Ctrl-q to detach from container, reattach with
-docker attach tmux
+You can use Ctrl-p,Ctrl-q to detach from container, reattach with<br>
+docker attach tmux<br>
 
-Source and documentation available here :
-https://github.com/ddallair/docmuxres
-https://github.com/tmux-plugins/tmux-resurrect
-https://tmux.github.io/
+Source and documentation available here :<br>
+https://github.com/ddallair/docmuxres<br>
+https://github.com/tmux-plugins/tmux-resurrect<br>
+https://tmux.github.io/<br>
