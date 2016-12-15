@@ -16,6 +16,8 @@ ADD https://github.com/tmux-plugins/tmux-continuum/archive/master.zip /src/tmux-
 
 RUN cd /src && unzip tmux-resurrect.zip && unzip tmux-continuum.zip && rm -rf *.zip 
 
+RUN localedef -c -f UTF-8 -i en_US en_US.UTF-8
+
 ENV TZ America/Montreal
 ENV TERM xterm
 ENV LANG UTF-8
