@@ -13,6 +13,6 @@ You can use Ctrl-p,Ctrl-q to detach from container, reattach with<br>
 docker attach tmux<br>
 
 Source and documentation available here :<br>
-https://github.com/ddallair/docmuxres<br>
+https://github.com/godevbot/docmuxres<br>
 https://github.com/tmux-plugins/tmux-resurrect<br>
 https://tmux.github.io/<br>
