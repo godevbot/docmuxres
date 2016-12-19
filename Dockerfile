@@ -11,7 +11,7 @@ RUN cd /src && tar -xzf libevent-2.0.22-stable.tar.gz && tar -xzf tmux-2.3.tar.g
 RUN cd /src/libevent-2.0.22-stable && ./configure && make && make install
 RUN cd /src/tmux-2.3 && ./configure && make && make install
 
-ADD https://github.com/ddallair/tmux-resurrect/archive/master.zip /src/tmux-resurrect.zip
+ADD https://github.com/godevbot/tmux-resurrect/archive/master.zip /src/tmux-resurrect.zip
 ADD https://github.com/tmux-plugins/tmux-continuum/archive/master.zip /src/tmux-continuum.zip
 
 RUN cd /src && unzip tmux-resurrect.zip && unzip tmux-continuum.zip && rm -rf *.zip
